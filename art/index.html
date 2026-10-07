@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>最后一场鹅鸭杀 · 画册</title>
+<style>
+  :root{
+    --bg:#F0EFEB; --txt:#58402E;
+    --mut:rgba(88,64,46,.60); --lab:rgba(88,64,46,.72);
+    --faint:rgba(88,64,46,.40); --quiet:rgba(88,64,46,.15); --grid:rgba(88,64,46,.16);
+    --data:#43593B; --data2:#77835A; --hero:#D4A017; --wheat:#F2D17E;
+    --slab:'Roboto Slab','Noto Serif SC',serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--txt);
+    font-family:'Roboto Slab','Noto Serif SC','PingFang SC','Microsoft YaHei',serif;
+    -webkit-font-smoothing:antialiased;display:flex;justify-content:center;padding:56px 24px}
+  .sheet{width:1080px;max-width:1080px}
+  .mast{display:flex;align-items:end;justify-content:space-between;gap:20px;flex-wrap:wrap}
+  .kicker{font-size:12px;font-weight:600;letter-spacing:.22em;color:var(--mut)}
+  h1{font-size:52px;font-weight:900;line-height:1.05;text-shadow:3px 3px 0 rgba(172,173,121,.45);margin-top:6px}
+  .back{font-size:12px;color:var(--lab);text-decoration:none;border-bottom:1px solid var(--grid);padding-bottom:2px}
+  .back:hover{color:var(--data)}
+  .rule{border-top:1px solid var(--txt);margin-top:18px}
+  .lede{font-size:14px;line-height:1.9;color:var(--lab);max-width:640px;margin-top:22px}
+  .lede b{color:var(--data)}
+  .sec-title{margin-top:44px;font-size:13px;font-weight:700;letter-spacing:.18em;color:var(--mut);
+    display:flex;align-items:center;gap:10px}
+  .sec-title .n{background:var(--data);color:var(--bg);width:20px;height:20px;display:inline-flex;
+    align-items:center;justify-content:center;font-size:11px;flex:none}
+  .covers{display:grid;grid-template-columns:4fr 3fr;gap:26px;margin-top:18px;align-items:start}
+  figure{margin:0}
+  .covers img{width:100%;display:block;border-radius:6px;box-shadow:0 10px 34px rgba(88,64,46,.18)}
+  figcaption{margin-top:10px}
+  figcaption .t{font-size:14px;font-weight:700;color:var(--data)}
+  figcaption .t em{font-style:normal;color:var(--hero)}
+  figcaption .d{font-size:11px;color:var(--lab);margin-top:3px;line-height:1.7}
+  .wall{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:18px;align-items:start}
+  .card{background:#F7F5EF;border:1px solid var(--grid);border-radius:6px;overflow:hidden;
+    transition:transform .18s ease,box-shadow .18s ease}
+  .card:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(88,64,46,.16)}
+  .card img{width:100%;display:block;aspect-ratio:attr(data-r);object-fit:cover}
+  .card .cap{padding:12px 14px 14px}
+  .card .t{font-size:13.5px;font-weight:700;color:var(--data)}
+  .card .t em{font-style:normal;color:var(--hero)}
+  .card .d{font-size:10.5px;color:var(--lab);line-height:1.75;margin-top:4px}
+  .foot{margin-top:52px;padding-top:12px;border-top:1px solid var(--txt);
+    display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;
+    font-size:9.5px;font-weight:600;letter-spacing:.14em;color:var(--mut)}
+  .privacy{margin-top:22px;border:1px dashed var(--faint);padding:10px 14px;
+    font-size:10px;color:var(--lab);letter-spacing:.04em}
+  @media(max-width:900px){
+    body{padding:28px 14px}
+    .sheet{width:100%;max-width:100%}
+    h1{font-size:36px}
+    .covers{grid-template-columns:1fr}
+    .wall{grid-template-columns:repeat(2,1fr);gap:12px}
+    .card .cap{padding:9px 11px 11px}
+  }
+  @media(max-width:520px){.wall{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="mast">
+    <div>
+      <div class="kicker">画册 · THE ART EDITION</div>
+      <h1>最后一场鹅鸭杀 · 画册</h1>
+      <div class="rule"></div>
+    </div>
+    <a class="back" href="../">← 返回正篇报告</a>
+  </div>
+
+  <p class="lede">由 gpt-image-2.5 依 90 天聊天记录绘成的 <b>20 张画</b>：
+    两张封面，十八张名场面。每张画对应一个群里真实发生过的事——
+    名字即人物，标题即剧情。</p>
+
+  <div class="sec-title"><span class="n">封</span>封面 · 两款</div>
+  <div class="covers">
+    <figure>
+      <img src="cover-main.jpg" alt="杂志封面">
+      <figcaption><div class="t">杂志封面 · <em>拍立得墙</em></div>
+        <div class="d">15 位主要发言人的拍立得，一张空了一半的圆桌——「不同的角色，相同的朋友」。</div>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="cover-poster.jpg" alt="电影海报">
+      <figcaption><div class="t">电影海报 · <em>鹅鸭村夜色</em></div>
+        <div class="d">深秋夜路的最后一局，五位主演定妆照，路牌写着：更远的地方 / 还是朋友 / 一路向前。</div>
+      </figcaption>
+    </figure>
+  </div>
+
+  <div class="sec-title"><span class="n">场</span>名场面 · 十八张</div>
+  <div class="wall">
+    <div class="card"><img loading="lazy" src="01-下12.jpg" alt=""><div class="cap"><div class="t">下12！</div><div class="d">深夜 23:58，一句号令与一块屏幕的光。</div></div></div>
+    <div class="card"><img loading="lazy" src="02-胜率公审.jpg" alt=""><div class="cap"><div class="t">胜率公审</div><div class="d">三张 50% 的截图，一场没人劝架的庭审。</div></div></div>
+    <div class="card"><img loading="lazy" src="03-满分男几分.jpg" alt=""><div class="cap"><div class="t">满分男评分会</div><div class="d">「但是他打游戏菜菜的，几分？」——6 分，及格。</div></div></div>
+    <div class="card"><img loading="lazy" src="04-静默日.jpg" alt=""><div class="cap"><div class="t"><em>8-15 静默日</em></div><div class="d">93 天里唯一的零条，尘埃落在屏幕上。</div></div></div>
+    <div class="card"><img loading="lazy" src="05-偷菜战争.jpg" alt=""><div class="cap"><div class="t">偷菜战争</div><div class="d">零点的菜地，月光下抱菜狂奔的那一只。</div></div></div>
+    <div class="card"><img loading="lazy" src="06-猫狗夜谈.jpg" alt=""><div class="cap"><div class="t">猫狗夜谈</div><div class="d">254 条消息：小猫的屁屁、油条、和「我的猫像我」。</div></div></div>
+    <div class="card"><img loading="lazy" src="07-兵线悬案.jpg" alt=""><div class="cap"><div class="t">兵线悬案</div><div class="d">袋子里是兵线，放大镜后是全群——被告自封罪名服役一个月。</div></div></div>
+    <div class="card"><img loading="lazy" src="08-金句代打.jpg" alt=""><div class="cap"><div class="t">金句代打</div><div class="d">打字机后是本尊，签字的是「bot」。</div></div></div>
+    <div class="card"><img loading="lazy" src="09-24连哈.jpg" alt=""><div class="cap"><div class="t"><em>24 连哈</em></div><div class="d">一条消息里最长的笑，全季纪录。</div></div></div>
+    <div class="card"><img loading="lazy" src="10-1814字攻略.jpg" alt=""><div class="cap"><div class="t">1814 字攻略</div><div class="d">《墨子：零基础 3 天冲万战》——本群最长单条。</div></div></div>
+    <div class="card"><img loading="lazy" src="11-斗图烟花.jpg" alt=""><div class="cap"><div class="t">斗图烟花</div><div class="d">第 86 场斗图，28 张图的夜空，胜率公审那天。</div></div></div>
+    <div class="card"><img loading="lazy" src="12-守夜人.jpg" alt=""><div class="cap"><div class="t">守夜人</div><div class="d">00:00-06:00 的深夜观察站，占全季消息 11.4%。</div></div></div>
+    <div class="card"><img loading="lazy" src="13-二人转.jpg" alt=""><div class="cap"><div class="t">二人转</div><div class="d">花花子 ↔ xxxxxxxJ，1794 次接话的世界巡演。</div></div></div>
+    <div class="card"><img loading="lazy" src="14-入秋日历.jpg" alt=""><div class="cap"><div class="t">入秋日历</div><div class="d">九月开始，叶子一片片变浅——6,537 到 189。</div></div></div>
+    <div class="card"><img loading="lazy" src="15-离场站台.jpg" alt=""><div class="cap"><div class="t">离场站台</div><div class="d">四张背影车票，没有告别仪式。</div></div></div>
+    <div class="card"><img loading="lazy" src="16-最后的笑.jpg" alt=""><div class="cap"><div class="t">最后的笑</div><div class="d">片尾字幕：「早知道我不说话了」。</div></div></div>
+    <div class="card"><img loading="lazy" src="17-拍一拍银行.jpg" alt=""><div class="cap"><div class="t">拍一拍银行</div><div class="d">本季货币结算：功德 -96，余额 +4,400,000。</div></div></div>
+    <div class="card"><img loading="lazy" src="18-群吉尼斯.jpg" alt=""><div class="cap"><div class="t">群吉尼斯</div><div class="d">24 连哈 / 1814 字 / 38 小时，颁奖台合影。</div></div></div>
+  </div>
+
+  <div class="privacy">⚠ 画中角色形象由群友头像与聊天记录演绎生成，仅供群内留念，请勿外传。</div>
+
+  <div class="foot">
+    <span>最后一场鹅鸭杀 · 画册 · 2026-07-07 → 10-07</span>
+    <span>GPT-IMAGE-2.5 · 20 张 · 画与记</span>
+  </div>
+</div>
+</body>
+</html>
